@@ -1,0 +1,221 @@
+/* reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* start editing from here */
+
+a {
+	text-decoration: none;
+}
+/*end reset*/
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+select,
+input[type="email"],
+input[type="text"],
+input[type=password],
+input[type="button"],
+input[type="submit"],
+textarea {
+font-family: 'Open Sans', sans-serif;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*-- //Reset-Code --*/
+html
+{
+	margin: 0;
+    padding: 00;
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+	box-sizing: border-box;
+	background: #fff;
+	 min-width: 100vh;
+}
+.heading
+{
+	    font-size: 36px;
+    margin: 2rem 0rem;
+    transition: 0.5s all;
+}
